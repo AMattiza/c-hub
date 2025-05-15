@@ -1,0 +1,22 @@
+{
+  "name": "suess-gruesse-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.1.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14",
+    "vite": "^4.5.0"
+  }
+}
