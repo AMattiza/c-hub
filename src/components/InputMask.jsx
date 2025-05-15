@@ -12,9 +12,9 @@ export default function InputMask({ data, onChange, sections }) {
         { label: 'Startdatum der Planung', name: 'startDate', type: 'month' },
       ] },
     { section: 'Produktkalkulation', items: [
-        { label: 'Einkaufspreis Pina (€ je VE)', name: 'costPrice', type: 'slider', min: 0, max: 20, step: 0.1 },
-        { label: 'Verkaufspreis Pina (€ je VE)', name: 'sellPrice', type: 'slider', min: 0, max: 20, step: 0.1 },
-        { label: 'UVP (€ je VE)', name: 'uvp', type: 'slider', min: 0, max: 20, step: 0.1 },
+        { label: 'Einkaufspreis Pina (€ je VE)', name: 'costPrice', type: 'slider', min: 0, max: 25, step: 0.1 },
+        { label: 'Verkaufspreis Pina (€ je VE)', name: 'sellPrice', type: 'slider', min: 0, max: 25, step: 0.1 },
+        { label: 'UVP (€ je VE)', name: 'uvp', type: 'slider', min: 0, max: 25, step: 0.1 },
         { label: 'Rohertrag Pina pro VE (€)', name: 'marginPerUnit', type: 'readOnly' },
       ] },
     { section: 'Händlerwachstum', items: [
@@ -32,12 +32,12 @@ export default function InputMask({ data, onChange, sections }) {
         { label: 'Deckungsbeitrag II pro VE (€)', name: 'deckungsbeitragPerUnit', type: 'readOnly' },
       ] },
     { section: 'Lizenz 1 / Städteserie (C-Hub)', items: [
-        { label: 'Lizenz 1 Einheit (€)', name: 'license1Gross', type: 'slider', min: 0, max: 5, step: 0.01 },
-        { label: 'Postkartendruck €/Stück', name: 'postcardCost', type: 'slider', min: 0, max: 0.25, step: 0.01 },
-        { label: 'Grafik-Kosten/Einheit (€)', name: 'graphicShare', type: 'slider', min: 0, max: 1, step: 0.01 },
+        { label: 'Lizenz 1 Einheit (€)', name: 'license1Gross', type: 'slider', min: 0, max: 5, step: 0.05 },
+        { label: 'Postkartendruck €/Stück', name: 'postcardCost', type: 'slider', min: 0, max: 0.25, step: 0.02 },
+        { label: 'Grafik-Kosten/Einheit (€)', name: 'graphicShare', type: 'slider', min: 0, max: 1, step: 0.05 },
       ] },
     { section: 'Lizenz 2 / Website & Shop (C-Hub)', items: [
-        { label: 'Lizenz 2 €/Einheit', name: 'license2', type: 'slider', min: 0, max: 5, step: 0.01 },
+        { label: 'Lizenz 2 €/Einheit', name: 'license2', type: 'slider', min: 0, max: 5, step: 0.05 },
         { label: 'Schwelle Lizenz 2 (Händler)', name: 'license2Threshold', type: 'slider', min: 0, max: 200, step: 1 },
       ] },
   ];
