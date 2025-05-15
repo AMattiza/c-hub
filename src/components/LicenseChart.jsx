@@ -57,16 +57,16 @@ const CustomTooltip = ({ active, payload, label }) => {
 
       <hr className="my-2" />
 
-      <div className="grid grid-cols-2 gap-x-4">
-        <span>Deckungsbeitrag II:</span>
-        <span className="text-right">{fmtDec(d.deckungsbeitragII)} €</span>
+     <div className="grid grid-cols-2 gap-x-4">
+  <span>Deckungsbeitrag II:</span>
+  <span className="text-right font-semibold">{fmtDec(d.deckungsbeitragII)} €</span>
 
-        <span>Lizenzkosten 1:</span>
-        <span className="text-right">-{fmtDec(d.tier1)} €</span>
+  <span>Lizenzkosten 1:</span>
+  <span className="text-right font-semibold">-{fmtDec(d.tier1)} €</span>
 
-        <span>Lizenzkosten 2:</span>
-        <span className="text-right">-{fmtDec(d.tier2)} €</span>
-      </div>
+  <span>Lizenzkosten 2:</span>
+  <span className="text-right font-semibold">-{fmtDec(d.tier2)} €</span>
+</div>
 
       <hr className="my-2" />
 
