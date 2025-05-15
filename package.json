@@ -1,22 +1,19 @@
 {
-  "name": "suess-gruesse-app",
+  "name": "sweet-greetings",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "recharts": "^2.1.9"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.21",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "autoprefixer": "^10.4.14",
-    "vite": "^4.5.0"
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "@tailwindcss/typography": "^0.5.10"
   }
 }
