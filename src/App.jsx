@@ -249,9 +249,12 @@ const reorders = newPartnersPerMonth
     <div className="max-w-screen-xl mx-auto mt-6 mb-6 px-4 sm:px-6 lg:px-8">
   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
     <h1 className="text-3xl font-semibold">Business Case "Süße Grüße" v1.1</h1>
-    <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-      Alle Daten exportieren (JSON)
-    </button>
+    <button
+  onClick={handleExportAll}
+  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+>
+  Alle Daten exportieren (JSON)
+</button>
   </div>
 </div>
 
